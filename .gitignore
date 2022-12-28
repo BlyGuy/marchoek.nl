@@ -1,0 +1,8 @@
+#General non-code files that don't need to be in the repository
+*.tar
+*.gz
+*.zip
+*.pdf
+
+#Coding environment files
+.vscode

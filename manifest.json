@@ -1,0 +1,10 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "BlyGuy's Dungeon",
+    "short_name": "BG Dungeon",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "A website where Marc likes to post things occasionally."
+  }
+  

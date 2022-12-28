@@ -1,0 +1,64 @@
+header {
+    background-color: darkblue;
+}
+
+body {
+    background-color: darkred;
+}
+
+/* @font-face {
+    font-family: 'Comic_Sans';
+    src: url(LDFComicSans.ttf);
+}
+/* letters mogen niet donker zijn */
+html {
+    color: white
+}
+
+/* links met juiste kleur en zonder underline */
+a {
+    color: rgb(122, 107, 192);
+    text-decoration: none;
+}
+
+/* links worden bold en underlined bij hover */
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* links bij de navigation bar */
+.nav-bar-links {
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    font-size: large;
+}
+
+/* algemene opmaak bij de nacigation bar */
+.nav-bar {
+    background-color: rgb(10, 78, 96);
+    text-indent: 0.7%;
+    size: 10;
+    font-size: x-large;
+}
+
+/* de username bij het posten van messages */
+.profile-post {
+    color: rgb(238, 66, 66);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* timestamp bij de messages */
+.timestamp {
+    color: rgb(60, 79, 92)
+}
+
+/* de plek waar je kan zien naar wie je chat */
+.chat-header {
+    inherits: profile-post;
+    text-align: center;
+    font-size: xx-large;
+    font-family: monospace;
+}
