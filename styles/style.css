@@ -1,7 +1,4 @@
-/* @font-face {
-    font-family: 'Comic_Sans';
-    src: url(LDFComicSans.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Rubik+Iso&display=swap');
 /* letters mogen niet donker zijn */
 html {
     background-color: rgb(12, 1, 31);
@@ -20,38 +17,34 @@ a:hover {
     text-decoration: underline;
 }
 
-/* links bij de navigation bar */
-.nav-bar-links {
-    color: white;
-    text-align: right;
-    text-decoration: none;
-    font-size: large;
+h2 {
+    font-family: 'Chakra Petch', monospace;
 }
 
-/* algemene opmaak bij de nacigation bar */
+.page-title {
+    font-size: x-large;
+    text-align: center;
+    background-color: black;
+    text-decoration: underline;
+    color: red;
+    font-family: 'Rubik Iso', monospace;
+}
+
+/* algemene opmaak bij de navigation bar */
 .nav-bar {
+    font-family: 'Chakra Petch', monospace;
     background-color: rgb(96, 23, 10);
-    text-indent: 0.7%;
-    size: 10;
+    text-indent: 2px;
     font-size: x-large;
 }
 
-/* de username bij het posten van messages */
-.profile-post {
-    color: rgb(238, 66, 66);
+/* links bij de navigation bar */
+.nav-bar-links {
+    text-align: right;
     text-decoration: none;
-    font-weight: bold;
+    font-size: medium;
 }
 
-/* timestamp bij de messages */
-.timestamp {
-    color: rgb(60, 79, 92)
-}
-
-/* de plek waar je kan zien naar wie je chat */
-.chat-header {
-    inherits: profile-post;
-    text-align: center;
-    font-size: xx-large;
+.main-content-box {
     font-family: monospace;
 }
