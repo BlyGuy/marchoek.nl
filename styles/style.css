@@ -17,6 +17,10 @@ a:hover {
     text-decoration: underline;
 }
 
+a:visited {
+    color: pink;
+}
+
 h2 {
     font-family: 'Chakra Petch', monospace;
 }
