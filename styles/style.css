@@ -1,54 +1,55 @@
+/* Imports the Chakra Petch and Rubik Iso fonts from the Google Fonts API */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Rubik+Iso&display=swap');
-/* letters mogen niet donker zijn */
+
+/* By default text has a dark-background, so they should white */
 html {
     background-color: rgb(12, 1, 31);
-    color: white
+    color: white;
+    font-family: monospace;
 }
 
-/* links met juiste kleur en zonder underline */
+/* Links get an accent-color by default */
 a {
     color: rgb(122, 107, 192);
     text-decoration: none;
 }
 
-/* links worden bold en underlined bij hover */
+/* Hover feedback for text-links */
 a:hover {
     font-weight: bold;
     text-decoration: underline;
 }
 
+/* Visited links are pink */
 a:visited {
     color: pink;
+}
+
+h1 {
+    font-family: 'Rubik Iso', monospace;
 }
 
 h2 {
     font-family: 'Chakra Petch', monospace;
 }
 
+/* The big title at the beginning of every main page */
 .page-title {
     font-size: x-large;
     text-align: center;
     background-color: black;
     text-decoration: underline;
     color: red;
-    font-family: 'Rubik Iso', monospace;
 }
 
-/* algemene opmaak bij de navigation bar */
+/* The navigation bar at the top of every page */
 .nav-bar {
     font-family: 'Chakra Petch', monospace;
     background-color: rgb(96, 23, 10);
     text-indent: 2px;
-    font-size: x-large;
 }
 
-/* links bij de navigation bar */
-.nav-bar-links {
-    text-align: right;
-    text-decoration: none;
-    font-size: medium;
-}
-
-.main-content-box {
-    font-family: monospace;
+.main-content {
+    max-width: 800px;
+    margin: auto;
 }
