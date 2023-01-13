@@ -2,4 +2,4 @@
 
 My personal little [website](https://BlyGuy.github.io)
 
-> It doesn't contain anything useful at the moment ¯\_(ツ)_/¯
+> It doesn't contain anything useful at the moment ¯\\\_(ツ)\_/¯
