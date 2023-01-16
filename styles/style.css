@@ -5,7 +5,7 @@
 html {
     background-color: rgb(12, 1, 31);
     color: white;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Links get an accent-color by default */
@@ -33,6 +33,11 @@ h2 {
     font-family: 'Chakra Petch', monospace;
 }
 
+table {
+    width: 100%;
+    text-align: center;
+}
+
 /* The big title at the beginning of every main page */
 .page-title {
     font-size: x-large;
@@ -45,6 +50,7 @@ h2 {
 /* The navigation bar at the top of every page */
 .nav-bar {
     font-family: 'Chakra Petch', monospace;
+    font-size: medium;
     background-color: rgb(96, 23, 10);
     text-indent: 2px;
 }
@@ -52,4 +58,13 @@ h2 {
 .main-content {
     max-width: 800px;
     margin: auto;
+}
+
+.doors img {
+    width: 10ch;
+    content: url("../img/door1.png");
+}
+
+.doors img:hover {
+    content: url(../img/door2.png);
 }
