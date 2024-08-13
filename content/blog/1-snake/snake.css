@@ -1,0 +1,26 @@
+#snakegrid {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 200px;
+    border: mediumspringgreen ridge 10px;
+    background-color: black;
+}
+
+#snakegrid div {
+    height: 19px;
+    width: 19px;
+    border: darkgrey solid;
+    border-width: 0px 1px 1px 0px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+.snake { background-color: greenyellow; }
+
+.apple { background-color: red; }

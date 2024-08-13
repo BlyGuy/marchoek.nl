@@ -1,0 +1,10 @@
+baseURL = 'https://marchoek.nl/'
+languageCode = 'en-us'
+title = "BlyGuy's Dungeon"
+theme = 'hugo-castle'
+
+[params]
+    siteRepo = 'https://github.com/BlyGuy/marchoek.nl/'
+
+[taxonomies]
+    tag = "tags"

@@ -1,0 +1,3 @@
+[submodule "themes/hugo-castle"]
+	path = themes/hugo-castle
+	url = https://github.com/BlyGuy/hugo-castle.git
