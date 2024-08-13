@@ -1,6 +1,7 @@
 # marchoek.nl
 
-My personal little [website](https://marchoek.nl)
-The plan is to make this a fun portofolio-type site
+My personal [website](https://marchoek.nl), made using hugo ![:)](static/img/slime_bounce.gif)
 
-> It doesn't contain anything useful at the moment ¯\\\_(ツ)\_/¯
+The plan is to make this a fun portofolio-type site.
+
+This site also serves as a example of a site using the [hugo-castle](https://github.com/BlyGuy/hugo-castle) hugo theme.
