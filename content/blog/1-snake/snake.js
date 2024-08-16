@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             CONSTANTS.height/2 * CONSTANTS.width + CONSTANTS.width/2,
             CONSTANTS.height/2 * CONSTANTS.width + CONSTANTS.width/2 - 1
         ],
-        orientation: [1, 0], //[x, y]
+        orientation: [1, 0], //[deltaX, deltaY]
     };
     //apple cell-index
     let appleIndex = 0;
@@ -65,14 +65,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     const resetButton = document.getElementById("reset-button");
-    resetButton.addEventListener("click", reset);
+    resetButton.addEventListener("click", () => { reset(); });
 
     //Defining and enabling the control handler
     document.addEventListener("keydown", (event) => {
-        if (isPaused)
-            return;
 
         switch (event.code) {
+        //Movement
         case "ArrowLeft":
             if (snake.bodyParts[0] - 1 !== snake.bodyParts[1]) {
                 snake.orientation[0] = -1;
@@ -97,6 +96,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 snake.orientation[1] = 1;
             }
             break;
+        case "KeyP":
+            if (isGameOver)
+                reset();
+            else if (isPaused)
+                resume();
+            else
+                pause();
+            break;
+        case "KeyR":
+            reset();
+            break;
         }
     });
 
@@ -106,6 +116,9 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
         }
     }, false);
+
+    //Finally, Initialise the game
+    reset();
 
     // Game functions //
 

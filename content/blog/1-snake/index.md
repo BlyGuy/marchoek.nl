@@ -15,9 +15,13 @@ As a quick aside, There exists a [smarter approach](https://johnflux.com/2015/05
 
 I recommend that newer players stick to a safe path first and try to get apples quicker if they know they can retreat to a safe path afterwards. I wish you luck on your slither-quest! {{< icon src="/img/slime_bounce.gif" alt=";)" >}}
 
-# Embedded Snake
+# Embedded Snake 🐍
 
-***Controls***: Move with the arrow-keys. (⬅️, ⬆️, ⬇️, ➡️)
+***Controls***:
+
+* Move with the arrow-keys. (⬅️, ⬆️, ⬇️, ➡️)
+* Pause/Unpause with the P-key (🅿️)
+* Reset with the R-key (🇷)
 
 {{< raw >}}
 <link rel=stylesheet href="snake.css">
