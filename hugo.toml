@@ -1,6 +1,6 @@
 baseURL = 'https://marchoek.nl/'
 languageCode = 'en-us'
-title = "BlyGuy's Dungeon"
+title = "Marc's Dungeon"
 theme = 'hugo-castle'
 
 [params]
@@ -8,3 +8,7 @@ theme = 'hugo-castle'
 
 [taxonomies]
     tag = "tags"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
