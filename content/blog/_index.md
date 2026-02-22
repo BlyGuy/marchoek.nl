@@ -5,8 +5,7 @@ draft = false
 +++
 
 {{< center >}}
-<p>I write stuff here. Take a look if you want.
-{{< icon src="/img/slime_bounce.gif" alt=":)" >}}
-</p>
-<p>You can also <a href="/tags">browse these posts based on category</a></p>
+I write stuff here. Take a look if you want. ![:)](/img/slime_bounce.gif)
+
+You can also [browse these posts based on category](/tags)
 {{< /center >}}
