@@ -1,5 +1,5 @@
 +++
-title = 'Embedded Snake Strategy'
+title = '(Test) Snake Strategy'
 date = 2024-08-12T22:53:27+02:00
 draft = false
 tags = ['Fun', 'Game Theory']

@@ -1,5 +1,5 @@
 baseURL = 'https://marchoek.nl/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = "Marc's Dungeon"
 theme = 'hugo-castle'
 
@@ -8,6 +8,26 @@ theme = 'hugo-castle'
 
 [taxonomies]
     tag = "tags"
+
+[[menus.main]]
+    name = 'Blog'
+    pageRef = '/blog'
+weight = 10
+
+[[menus.main]]
+    name = 'Games'
+    url = 'https://earlgreysuperior.itch.io/'
+    weight = 11
+
+[[menus.main]]
+    name = 'Contact'
+    pageRef = '/contact.html'
+    weight = 29
+
+[[menus.main]]
+    name = 'Credits'
+    pageRef = '/credits.html'
+    weight = 30
 
 [caches]
   [caches.images]
